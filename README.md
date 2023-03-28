@@ -6,3 +6,14 @@ Automatically infer tensor shapes in your program using ChatGPT
 
 
 Most of the code is boilerplate, what you wanna take a look at is this https://github.com/msaroufim/vscode-pytorch-extension/blob/main/new-pytorch-extension/src/extension.ts
+
+
+## Usage
+
+```
+export OPENAI_API_KEY="YOUR_KEY_HERE"
+npm install -g typescript
+npm install
+npm run compile
+vsce package
+```
